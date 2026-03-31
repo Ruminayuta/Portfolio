@@ -1,0 +1,53 @@
+#my_text{
+    width: 400px;
+    height: 40px;
+    font-size: 100%;
+    box-sizing: border-box;
+    padding-left: 5px;
+}
+html{
+    font-size: 18px;
+}
+#container{
+    margin: 50px auto 0px;
+    width: 400px;
+}
+.todo-action{
+list-style: none;
+margin-bottom: 15px;
+display: flex;
+justify-content: space-between;
+}
+.delate-button{
+ border: none;   
+ outline: none;
+ background-color: transparent;
+ font-weight: bold;
+ color: crimson;
+}
+.delate-button:hover{
+    color: deeppink;
+}
+.idea{
+    list-style: none;
+margin-bottom: 15px;
+display: flex;
+justify-content: space-between;
+}
+#contact{
+    margin: 500px auto 0px;
+    width: 400px;
+}
+#area{
+    width: 300px;
+    height: 50px;
+}
+input[type="submit"]{
+    width: 100px;
+    height: 50px;
+    background-color: blue;
+    color: azure;
+}
+input[type="submit"]:hover{
+    background-color: cadetblue;
+}
